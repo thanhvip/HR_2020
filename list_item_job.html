@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>GetbeeClient</title>
+    <base href=".">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="">
+    <link href="./css/css" rel="stylesheet" type="text/css">
+    <link href="./css/icofont.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/swiper.min.css" rel="stylesheet">
+    <script type="text/javascript" async="" src="./js/analytics.js"></script>
+    <script src="./js/swiper.js"></script>
+    <link rel="manifest" href="#">
+    <script src="./js/swiper.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">  
+	<link rel="stylesheet" href="./css/customize_list_job.css">  
+</head>
+<body>
+            <header _ngcontent-sre-c1="" style="background: #042E51">
+                <div _ngcontent-sre-c1="" class="container h-100">
+                    <div _ngcontent-sre-c1="" class="row h-100">
+                        <div _ngcontent-sre-c1="" class="col-sm-12 h-100 clear_padding">
+                            <div _ngcontent-sre-c1="" class="menu_area h-100">
+                                <nav _ngcontent-sre-c1="" class="navbar navbar-expand-lg navbar-light">
+                                    <a _ngcontent-sre-c1="" class="navbar-brand" href="#"><img _ngcontent-sre-c1="" src="./image/getbee.png">
+                                    </a>
+                                    <button _ngcontent-sre-c1="" aria-controls="mosh-navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler visible-xs" data-target="#mosh-navbar" data-toggle="collapse" type="button"><span _ngcontent-sre-c1="" class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div _ngcontent-sre-c1="" class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
+                                        <div _ngcontent-sre-c1="" class="search-form-area animated">
+                                            <form _ngcontent-sre-c1="" action="#" method="get" novalidate="" class="ng-untouched ng-pristine ng-valid">
+                                                <input _ngcontent-sre-c1="" id="search" name="search" placeholder="Tìm kiếm..." type="search">
+                                                <button _ngcontent-sre-c1="" class="d-none" type="submit">
+												<i _ngcontent-sre-c1="" class="icofont-search-1"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                        <ul _ngcontent-sre-c1="" class="navbar-nav animated menu_ul" id="nav">
+                                            <li _ngcontent-sre-c1="" class="nav-item"><a _ngcontent-sre-c1="" class="nav-link active" routerlink="/home" routerlinkactive="active" translate="" ng-reflect-router-link="/home" ng-reflect-router-link-active="active" ng-reflect-translate="" href="#">Trang chủ</a>
+                                            </li>
+                                            <li _ngcontent-sre-c1="" class="nav-item dropdown menu-large"><a _ngcontent-sre-c1="" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="moshDropdownVi" role="button" translate="" ng-reflect-translate="">Tất cả các job</a>
+                                                <ul _ngcontent-sre-c1="" class="dropdown-menu megamenu">
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                            <span _ngcontent-sre-c1="" class="ng-star-inserted">An toàn lao động</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">An Ninh/ Bảo vệ</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Bán hàng/ Kinh doanh</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Bán sỉ/ bán lẻ</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Bán hàng kỹ thuật</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Bảo hiểm</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                            <span _ngcontent-sre-c1="" class="ng-star-inserted">Bất động sản</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Bảo trì/ sửa chữa</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Bưu chính viễn thông</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Chăn nuôi/ thú y</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Chứng khoán</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">IT_phần cứng</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">IT_phần mềm</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Công nghệ sinh học</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Cơ khí</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Dầu khí</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Dệt may/ da dày/ thời trang</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Dịch vụ khách hàng</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Du lịch</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Dược phẩm</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Điện/ điện tử</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Điện lạnh</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Giáo dục đào tạo</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Hàng gia dụng</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                         <span _ngcontent-sre-c1="" class="ng-star-inserted">Hàng Hải</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Hàng Không</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Hành chính/ thư ký</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Hóa học</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">In ấn/ xuất bản</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Kế toán/ kiểm toán</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Kiến Trúc</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                            <span _ngcontent-sre-c1="" class="ng-star-inserted">Khoáng sản</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Luật/ pháp lý</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                         <span _ngcontent-sre-c1="" class="ng-star-inserted">Môi trường</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Thiết kế</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                            <span _ngcontent-sre-c1="" class="ng-star-inserted">Mỹ thuật/ Nghệ thuật </span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Ngân hàng</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Nhà hàng/ khách sạn</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Nhân sự</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Nội ngoại thất</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Phi Chính Phủ</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                         <span _ngcontent-sre-c1="" class="ng-star-inserted">Quản lý chất lượng</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Quản lý điều hành</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Quảng cáo/ đối ngoại/ truyền thông</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Sản xuất/ vận hành sản xuất</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Tài chính đầu tư</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                        <span _ngcontent-sre-c1="" class="ng-star-inserted">Thẩm mỹ</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Thu mua</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Thủy lợi</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                            <span _ngcontent-sre-c1="" class="ng-star-inserted">Thực phẩm đồ uống</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Tiếp thị/ marketing</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Truyền hình/ báo chí/ biên tập</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                            <span _ngcontent-sre-c1="" class="ng-star-inserted">Tự động hóa/ ô tô</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Vận chuyển/ giao nhận/ kho vận</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Xây dựng</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Xuất nhập khẩu</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Y tế/ chăm sóc sức khỏe</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Du học/ Xuất khẩu lao động</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Khác</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Lao động phổ thông</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Biên phiên dịch</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank"  href="#">
+                                                           <span _ngcontent-sre-c1="" class="ng-star-inserted">Cơ sở dữ liệu</span>
+                                                        </a>
+                                                    </li>
+                                                    <li _ngcontent-sre-c1="" class="row clear_margin ng-star-inserted">
+                                                        <a _ngcontent-sre-c1="" class="btn_link" target="_blank" ng-reflect-target="_blank" href="#">
+                                                          <span _ngcontent-sre-c1="" class="ng-star-inserted">Mạng máy tính</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li _ngcontent-sre-c1="" class="nav-item"><a _ngcontent-sre-c1="" class="nav-link" translate=""  ng-reflect-translate="" href="#">Dành cho nhà tuyển dụng</a>
+                                            </li>
+                                            <li _ngcontent-sre-c1="" class="nav-item"><a _ngcontent-sre-c1="" class="nav-link" translate="" ng-reflect-translate="" href="#">Dành cho ứng viên</a>
+                                            </li>
+                                            <li _ngcontent-sre-c1="" class="nav-item"><a _ngcontent-sre-c1="" class="nav-link" translate="" ng-reflect-translate="">Cẩm nang</a>
+                                            </li>
+                                        </ul>
+                                        <div _ngcontent-sre-c1="" class="search-button"><a _ngcontent-sre-c1="" target="_blank" ng-reflect-target="_blank" ng-reflect-router-link="search-jobs" href="#"><i _ngcontent-sre-c1="" class="icofont-search-1"></i></a>
+                                            <label _ngcontent-sre-c1="">|</label>
+                                            <button _ngcontent-sre-c1="" data-lang="vi" id="btn_lang" style="border: none; background: transparent"><img _ngcontent-sre-c1="" id="lang-flag" src="./image/vi.png">
+                                            </button>
+                                           <a _ngcontent-sre-c1="" translate="" ng-reflect-translate="">Đăng nhập</a>
+                                            <div _ngcontent-sre-c1="" class="noti_alarm">
+                                                <ul _ngcontent-sre-c1="" aria-labelledby="menu1" class="dropdown-menu list_noti" id="aaaa" role="menu" ng-reflect-klass="dropdown-menu list_noti" >                                                  
+                                                    <li _ngcontent-sre-c1="" class="viewAll"><a _ngcontent-sre-c1="" class="inside_noti" translate="" ng-reflect-translate="">Không có thông báo</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section _ngcontent-sre-c3="" class="listJobs" id="listJobs">
+                <div _ngcontent-sre-c3="" class="container">
+                    <div _ngcontent-sre-c3="" class="row">
+                        <div _ngcontent-sre-c3="" class="col-md-12 row div_header">
+                            <div _ngcontent-sre-c3="" class="col-md-7">
+                                <div _ngcontent-sre-c3="" class="form-group">
+                                    <input _ngcontent-sre-c3="" class="form-control" type="text" placeholder="Search theo tên ứng viên, tên job, email, số điện">
+                                </div>
+                            </div>
+                            <div _ngcontent-sre-c3="" class="col-md-3">
+                                <div _ngcontent-sre-c3="" class="form-group">
+                                   
+                                        <div class="ng-tns-c4-0 form-control ui-dropdown ui-widget ui-state-default ui-corner-all ui-helper-clearfix" ng-reflect-klass="form-control">
+                                            <div class="ui-helper-hidden-accessible">
+                                                <input class="ng-tns-c4-0" aria-haspopup="listbox" readonly="" type="text" aria-label="IT_phần cứng">
+                                            </div>
+                                            <div class="ui-helper-hidden-accessible ui-dropdown-hidden-select">
+                                                <select class="ng-tns-c4-0" aria-hidden="true" tabindex="-1">
+                                                    <option class="ng-tns-c4-0 ng-star-inserted" value="[object Object]">IT_phần cứng</option>
+                                                </select>
+                                            </div>
+                                            <label class="ng-tns-c4-0 ui-dropdown-label ui-inputtext ui-corner-all ng-star-inserted" >
+                                               
+                                            <div class="ui-dropdown-trigger ui-state-default ui-corner-right">
+											<span class="ui-dropdown-trigger-icon ui-clickable pi pi-chevron-down" ng-reflect-klass="ui-dropdown-trigger-icon ui-cl" ng-reflect-ng-class="pi pi-chevron-down"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div _ngcontent-sre-c3="" class="col-md-2">
+                                <div _ngcontent-sre-c3="" class="form-group">
+                                    <button _ngcontent-sre-c3="" class="form-control btn btn_search" translate="" ng-reflect-translate="">Tìm kiếm</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div _ngcontent-sre-c3="" class="col-md-12 div_body">
+                            <ul _ngcontent-sre-c3="">
+                                <div _ngcontent-sre-c3="" class="search-results row" infinite-scroll="" ng-reflect-infinite-scroll-distance="1" ng-reflect-infinite-scroll-up-distance="2" ng-reflect-infinite-scroll-throttle="300">
+                                    <li _ngcontent-sre-c3="" class="item ng-star-inserted">
+                                        <a _ngcontent-sre-c3="" class="btn_link" href="#"><img _ngcontent-sre-c3="" src="./image/1577934421869_ZTE.jpg">
+                                        </a>
+                                        <div _ngcontent-sre-c3="" class="col-md-12 div_info">
+                                            <div _ngcontent-sre-c3="" class="col-md-12 div_main"><a _ngcontent-sre-c3="" class="btn_link" href="#"><h4 _ngcontent-sre-c3="">Product Manager (Presale)</h4></a>
+                                                <label _ngcontent-sre-c3="" class="company_name">Công ty TNHH ZTE HK (Việt Nam)</label>
+                                                <br _ngcontent-sre-c3="">
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Lương:</span><span _ngcontent-sre-c3=""> 1,500 - 2,000 USD</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng giới thiệu:</span><span _ngcontent-sre-c3="">22,500,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng:</span><span _ngcontent-sre-c3="">13,500,000 VNĐ</span>
+                                                </label>
+                                                
+                                                <label _ngcontent-sre-c3="" class="bonus ng-star-inserted">
+												<span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thời gian bảo hành:</span>&nbsp;
+                                                   
+												<span _ngcontent-sre-c3="" translate="" ng-reflect-translate="" class="ng-star-inserted"> 60 ngày</span>
+                                                    
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div _ngcontent-sre-c3="" class="div_like">
+                                            <label _ngcontent-sre-c3=""><i _ngcontent-sre-c3="" class="icofont-heart-alt"></i>5</label>
+                                        </div>
+                                    </li>
+                                    <li _ngcontent-sre-c3="" class="item ng-star-inserted">
+                                        <a _ngcontent-sre-c3="" class="btn_link"  href="#"><img _ngcontent-sre-c3="" src="./image/1576828958380_qtht_icom.png">
+                                        </a>
+                                        <div _ngcontent-sre-c3="" class="col-md-12 div_info">
+                                            <div _ngcontent-sre-c3="" class="col-md-12 div_main">
+											<a _ngcontent-sre-c3="" class="btn_link"  href="#"><h4 _ngcontent-sre-c3="">CHUYÊN VIÊN QUẢN TRỊ HỆ THỐNG ( System - Linux, Winserver, Netwwork)))</h4></a>
+                                                <label _ngcontent-sre-c3="" class="company_name">Công Ty Cổ Phần Dịch Vụ Truyền Thông VietNamNet ICom</label>
+                                                <br _ngcontent-sre-c3="">
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Lương:</span><span _ngcontent-sre-c3=""> 15,000,000 - 20,000,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng giới thiệu:</span><span _ngcontent-sre-c3="">2,500,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng:</span><span _ngcontent-sre-c3="">1,500,000 VNĐ</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div _ngcontent-sre-c3="" class="div_like">
+                                            <label _ngcontent-sre-c3=""><i _ngcontent-sre-c3="" class="icofont-heart-alt"></i>5</label>
+                                        </div>
+                                    </li>
+                                    <li _ngcontent-sre-c3="" class="item ng-star-inserted">
+                                        <a _ngcontent-sre-c3="" class="btn_link" href="#">
+										<img _ngcontent-sre-c3="" src="./image/1576726678966_project coodinatior.png">
+                                        </a>
+                                        <div _ngcontent-sre-c3="" class="col-md-12 div_info">
+                                            <div _ngcontent-sre-c3="" class="col-md-12 div_main">
+											<a _ngcontent-sre-c3="" class="btn_link"  href="#"><h4 _ngcontent-sre-c3="">Nhân viên điều phối dự án (Project Coordinatior)</h4></a>
+                                                <label _ngcontent-sre-c3="" class="company_name">Amigo</label>
+                                                <br _ngcontent-sre-c3="">
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Lương:</span><span _ngcontent-sre-c3=""> 15,000,000 - 20,000,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng giới thiệu:</span><span _ngcontent-sre-c3="">7,500,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng:</span><span _ngcontent-sre-c3="">4,500,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus ng-star-inserted"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thời gian bảo hành:</span>&nbsp;
+                                                   <span _ngcontent-sre-c3="" translate="" ng-reflect-translate="" class="ng-star-inserted"> 60 ngày</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div _ngcontent-sre-c3="" class="div_like">
+                                            <label _ngcontent-sre-c3=""><i _ngcontent-sre-c3="" class="icofont-heart-alt"></i>4</label>
+                                        </div>
+                                    </li>
+                                    <li _ngcontent-sre-c3="" class="item ng-star-inserted">
+                                        <a _ngcontent-sre-c3="" class="btn_link" href="#"><img _ngcontent-sre-c3="" src="./image/1572855173645_images.jpg">
+                                        </a>
+                                        <div _ngcontent-sre-c3="" class="col-md-12 div_info">
+                                            <div _ngcontent-sre-c3="" class="col-md-12 div_main"><a _ngcontent-sre-c3="" class="btn_link" href="#"><h4 _ngcontent-sre-c3="">Quản Trị Cơ Sở Dữ Liệu (Database Admin)</h4></a>
+                                                <label _ngcontent-sre-c3="" class="company_name">Công ty TNHH Giải pháp Gisa</label>
+                                                <br _ngcontent-sre-c3="">
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Lương:</span><span _ngcontent-sre-c3=""> 17,000,000 - 22,000,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng giới thiệu:</span><span _ngcontent-sre-c3="">8,000,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thưởng:</span><span _ngcontent-sre-c3="">4,800,000 VNĐ</span>
+                                                </label>
+                                                <label _ngcontent-sre-c3="" class="bonus ng-star-inserted"><span _ngcontent-sre-c3="" translate="" ng-reflect-translate="">Thời gian bảo hành:</span>&nbsp;
+                                                   <span _ngcontent-sre-c3="" translate="" ng-reflect-translate="" class="ng-star-inserted"> 60 ngày</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div _ngcontent-sre-c3="" class="div_like">
+                                            <label _ngcontent-sre-c3=""><i _ngcontent-sre-c3="" class="icofont-heart-alt"></i>5</label>
+                                        </div>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer _ngcontent-sre-c2="" class="main-footer">
+                <div _ngcontent-sre-c2="" class="container">
+                    <div _ngcontent-sre-c2="" class="contents">
+                        <div _ngcontent-sre-c2="" class="row">
+                            <div _ngcontent-sre-c2="" class="col-sm-12 col-md-3 apps">
+                                <ul _ngcontent-sre-c2="">
+                                    <li _ngcontent-sre-c2=""><img _ngcontent-sre-c2="" src="./image/getbee.png">
+                                    </li>
+                                    <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">CÔNG TY CỔ PHẦN GETBEE</li>
+                                    <li _ngcontent-sre-c2="">
+                                        <a _ngcontent-sre-c2="" href="#" target="_blank">
+										<img _ngcontent-sre-c2="" src="./image/button-play-store.png">
+                                        </a>
+                                        <a _ngcontent-sre-c2="" href="#" target="_blank">
+										<img _ngcontent-sre-c2="" src="./image/button-apple-store.png">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div _ngcontent-sre-c2="" class="col-sm-12 col-md-3">
+                                <h4 _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Giới thiệu</h4>
+                                <ul _ngcontent-sre-c2="">
+                                    <a _ngcontent-sre-c2="" href="#">
+                                        <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Trang chủ</li>
+                                    </a>
+                                    <a _ngcontent-sre-c2="" routerlink="/term"  href="#">
+                                        <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Điều khoản sử dụng</li>
+                                    </a>
+                                    <a _ngcontent-sre-c2="" routerlink="/privacy-policy" href="#">
+                                        <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Chính sách bảo mật</li>
+                                    </a>
+                                    <a _ngcontent-sre-c2="" routerlink="/new" href="#">
+                                        <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Tin tức</li>
+                                    </a>
+                                    <a _ngcontent-sre-c2="" routerlink="/contact"  href="#">
+                                        <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Liên hệ</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div _ngcontent-sre-c2="" class="col-sm-12 col-md-3">
+                                <h4 _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Dịch vụ</h4>
+                                <ul _ngcontent-sre-c2="">
+                                    <a _ngcontent-sre-c2=""  href="#">
+                                        <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Doanh nghiệp</li>
+                                    </a>
+                                    <a _ngcontent-sre-c2=""  href="#">
+                                        <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Chuyên gia tuyển dụng</li>
+                                    </a>
+                                </ul>
+                            </div>
+                            <div _ngcontent-sre-c2="" class="col-sm-12 col-md-3">
+                                <h4 _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Liên hệ</h4>
+                                <ul _ngcontent-sre-c2="">
+                                    <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Tầng 8, Tòa nhà Báo Nông thôn ngày nay, Phố Dương Đình Nghệ, Phường Yên Hòa, Cầu Giấy, Hà Nội</li>
+                                    <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Hanoi Office : 024 6666 2680</li>
+                                    <li _ngcontent-sre-c2="" translate="" ng-reflect-translate="">Email : info@getbee.vn</li>
+                                    <li _ngcontent-sre-c2="">
+                                        <a _ngcontent-sre-c2="" href="#" target="_blank">
+                                            <div _ngcontent-sre-c2="" class="icon"><i _ngcontent-sre-c2="" class="icofont-facebook"></i>
+                                            </div>
+                                        </a>
+                                        <a _ngcontent-sre-c2="" href="#">
+                                            <div _ngcontent-sre-c2="" class="icon"><i _ngcontent-sre-c2="" class="icofont-twitter"></i>
+                                            </div>
+                                        </a>
+                                        <a _ngcontent-sre-c2="" href="#" target="_blank">
+                                            <div _ngcontent-sre-c2="" class="icon"><i _ngcontent-sre-c2="" class="icofont-youtube-play"></i>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div _ngcontent-sre-c2="" class="footer-copyright text-center">
+                    <label _ngcontent-sre-c2="" translate="" ng-reflect-translate="">© 2020  All Rights Reserved</label>
+                </div>
+            </footer>
+    <script src="./js/runtime-es2015.js" type="module"></script>
+    <script src="./js/polyfills-es2015.js" type="module"></script>
+    <script src="./js/runtime-es5.js" nomodule=""></script>
+    <script src="./js/polyfills-es5.js" nomodule=""></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/main-es2015.js" type="module"></script>
+    <script src="./js/main-es5.js" nomodule=""></script>
+
+    <script>
+        if (global === undefined) {
+            var global = window;
+        }
+    </script>
+    <script async="" src="./js/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131416114-1');
+    </script>
+</body>
+
+</html>
